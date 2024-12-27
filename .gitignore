@@ -1,0 +1,65 @@
+# Quartus generated files and folders
+*.rpt
+*.done
+*.rpt
+*.smsg
+*.summary
+*.ddb
+db/
+incremental_db/
+out/
+output_files/
+greybox_tmp/
+
+# Quartus workspace file: stores window position, dock state etc.
+*.qws
+cr_ie_info.json
+
+# ModelSim files and folders
+transcript
+*.mti
+*.wlf
+_*
+_temp/
+_primary.*
+*.prw
+*.psm
+*.vstf
+mgc_location_map
+simulation/modelsim/*
+**/modelsim/
+
+# Generic backup files
+*~
+*.bak
+
+# Visual Studio temporary files
+*.suo
+*.tss
+*.user
+obj/
+Debug/
+Release/
+*.DotSettings
+
+# ZMAC assembler output directory
+zout/
+Processor/wlftvf4r7a
+Processor/wlfttx6fyq
+Processor/wlfts6bcmc
+Processor/wlfts0tq9g
+Processor/wlftk0xnh8
+Processor/wlftjhwd73
+Processor/wlftfdf7b9
+Processor/wlftbew13e
+Processor/wlftacvzy9
+Processor/wlftwnci4g
+Processor/wlftb56v7b
+Processor/wlftb56v7b
+Processor/wlftwnci4g
+Processor/wlftzmv54q
+Processor/wlftz0ca17
+Processor/wlftvn6t65
+Processor/wlft8ciqvj
+Processor/wlft2xzygy
+Processor/wlft0n695w

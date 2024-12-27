@@ -1,0 +1,28 @@
+mem load -i testcase1.mem /processor/Fetch_Unit_Inst/Instruction_Memory_Inst/memory
+
+add wave -position insertpoint  \
+/processor/input_port
+add wave -position insertpoint  \
+/processor/output_port
+
+add wave -position insertpoint  \
+/processor/clk \
+/processor/rst \
+
+
+add wave -position insertpoint  \
+/processor/Fetch_Unit_Inst/pc_reg_out
+add wave -position insertpoint  \
+/processor/EPC_out
+add wave -position insertpoint  \
+/processor/decode_unit_inst/register_file_inst/registers
+add wave -position insertpoint  \
+/processor/ccr_reg_out
+add wave -position insertpoint  \
+/processor/control_signals
+
+force -freeze /processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze /processor/rst 1 0
+run
+force -freeze /processor/rst 0 0
+force -freeze /processor/input_port 1111111111111111 0
